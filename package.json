@@ -13,6 +13,7 @@
     "mongoose": "^5.10.15",
     "os": "^0.1.2",
     "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-datepicker": "^3.3.0",
     "react-dom": "^17.0.1",
