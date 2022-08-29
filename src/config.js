@@ -1,5 +1,5 @@
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 
-dotenv.config();
+// dotenv.config();
 
-export const BACKEND_URL=process.env.NODE_ENV === 'development'?"http://localhost:5000/": "https://twele-exercise-tracker.herokuapp.com/"
+// export const BACKEND_URL=process.env.NODE_ENV === 'development'?"http://localhost:5000/": "https://dumb-tracker.herokuapp.com/"
