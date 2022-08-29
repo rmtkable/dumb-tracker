@@ -31,7 +31,7 @@ const usersRouter = require('./routes/users');
     
 app.use('/exercises', exercisesRouter);  
 app.use('/users', usersRouter);
-// app.use(express.static(path.join(__dirname, '../build')));
+app.use(express.static(path.join(__dirname, '../build')));
 
 app.listen(port, () => {
 console.log(`Server is running on port: ${port}`);
